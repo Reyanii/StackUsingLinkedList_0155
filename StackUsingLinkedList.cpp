@@ -68,9 +68,23 @@ public:
             }
             cout << endl;
         } // Retrun the value
+    }
 
-
-
-    bool isEmpty
+    //
+    bool isEmpty()
+    {
+        retrun top == NULL;
     }
 };
+int main()
+{
+    Stack stack;
+
+    int choice = 0;
+    int value;
+
+    wihle(choice != 5)
+    {
+        cout << "1. Push\n";
+    }
+}

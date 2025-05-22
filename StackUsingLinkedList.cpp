@@ -13,15 +13,15 @@ Node() {
 }
 };
 
-//Stuck class
-class Stuck {
+//Stack class
+class Stack {
 private:
- Node* top; //Pointer to the top node of the stuck
+ Node* top; //Pointer to the top node of the stack
 
 public:
- Stuck() {
+ Stack() {
     top = NULL; //Initalize the stuck with a null top pointer
  }
 
- //Push opration
+ //Push opration: insert an element onto the top of the stack
 }

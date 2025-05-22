@@ -13,4 +13,15 @@ Node() {
 }
 };
 
-//Stuck
+//Stuck class
+class Stuck {
+private:
+ Node* top; //Pointer to the top node of the stuck
+
+public:
+ Stuck() {
+    top = NULL; //Initalize the stuck with a null top pointer
+ }
+
+ //Push opration
+}

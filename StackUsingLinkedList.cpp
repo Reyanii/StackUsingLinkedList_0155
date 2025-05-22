@@ -73,7 +73,7 @@ public:
     //
     bool isEmpty()
     {
-        retrun top == NULL;
+        return top == NULL;
     }
 };
 int main()
@@ -83,7 +83,7 @@ int main()
     int choice = 0;
     int value;
 
-    wihle(choice != 5)
+    while (choice != 5)
     {
         cout << "1. Push\n";
         cout << "2. Pop\n";
@@ -124,7 +124,7 @@ int main()
             cout << "Exiting program." << endl;
             break;
         default:
-            cout << "Invalid choice. Try again." endl;
+            cout << "Invalid choice. Try again." << endl;
             break;
         }
         cout << endl;
